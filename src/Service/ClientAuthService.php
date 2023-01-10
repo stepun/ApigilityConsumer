@@ -92,6 +92,10 @@ class ClientAuthService implements ClientApiInterface
         if (!empty($data['grant_type'])) {
             $dataTobeSent['grant_type'] = $data['grant_type'];
         }
+        
+        if (!empty($data['refresh_token'])) {
+            $dataTobeSent['refresh_token'] = $data['refresh_token'];
+        }
 
         if ($oauthConfig['grant_type'] !== 'client_credentials'
            && $oauthConfig['grant_type'] !== 'refresh_token'
