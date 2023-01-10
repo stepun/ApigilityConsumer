@@ -1,5 +1,5 @@
 {
-    "name": "samsonasik/apigility-consumer",
+    "name": "stepun/apigility-consumer",
     "type": "library",
     "description": "Laminas API Tools Client API Service Consumer",
     "keywords": [
@@ -14,12 +14,12 @@
         "http",
         "oauth"
     ],
-    "homepage": "https://github.com/samsonasik/ApigilityConsumer",
+    "homepage": "https://github.com/stepun/ApigilityConsumer",
     "license": "MIT",
     "authors": [
         {
             "name": "Abdul Malik Ikhsan",
-            "email": "samsonasik@gmail.com",
+            "email": "stepun@gmail.com",
             "homepage": "http://samsonasik.wordpress.com",
             "role": "Developer"
         }
